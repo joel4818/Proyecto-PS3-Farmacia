@@ -43,9 +43,13 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.DGVdatosP = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.imgPro = new System.Windows.Forms.PictureBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnExaminar = new System.Windows.Forms.Button();
+            this.txtProv = new System.Windows.Forms.TextBox();
+            this.txtCat2 = new System.Windows.Forms.TextBox();
             this.txtCategoria = new System.Windows.Forms.ComboBox();
             this.txtFecha = new System.Windows.Forms.DateTimePicker();
             this.CBprov = new System.Windows.Forms.ComboBox();
@@ -62,8 +66,6 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtCat2 = new System.Windows.Forms.TextBox();
-            this.txtProv = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).BeginInit();
@@ -74,6 +76,7 @@
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVdatosP)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgPro)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -216,6 +219,7 @@
             this.btnEliminar.TabIndex = 19;
             this.btnEliminar.Text = "     Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnEditar
             // 
@@ -235,6 +239,7 @@
             this.btnEditar.TabIndex = 18;
             this.btnEditar.Text = "     Editar";
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // groupBox2
             // 
@@ -264,6 +269,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel3.Controls.Add(this.imgPro);
             this.panel3.Controls.Add(this.btnCancelar);
             this.panel3.Controls.Add(this.btnGuardar);
             this.panel3.Controls.Add(this.groupBox1);
@@ -273,6 +279,15 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(675, 878);
             this.panel3.TabIndex = 2;
+            // 
+            // imgPro
+            // 
+            this.imgPro.Location = new System.Drawing.Point(467, 720);
+            this.imgPro.Name = "imgPro";
+            this.imgPro.Size = new System.Drawing.Size(131, 137);
+            this.imgPro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgPro.TabIndex = 19;
+            this.imgPro.TabStop = false;
             // 
             // btnCancelar
             // 
@@ -285,7 +300,7 @@
             this.btnCancelar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Image")));
             this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(169, 762);
+            this.btnCancelar.Location = new System.Drawing.Point(90, 803);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
@@ -306,7 +321,7 @@
             this.btnGuardar.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.btnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Image")));
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardar.Location = new System.Drawing.Point(169, 679);
+            this.btnGuardar.Location = new System.Drawing.Point(90, 720);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
@@ -320,6 +335,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.btnExaminar);
             this.groupBox1.Controls.Add(this.txtProv);
             this.groupBox1.Controls.Add(this.txtCat2);
             this.groupBox1.Controls.Add(this.txtCategoria);
@@ -343,10 +359,44 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(533, 599);
+            this.groupBox1.Size = new System.Drawing.Size(533, 638);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Productos";
+            // 
+            // btnExaminar
+            // 
+            this.btnExaminar.Location = new System.Drawing.Point(171, 575);
+            this.btnExaminar.Name = "btnExaminar";
+            this.btnExaminar.Size = new System.Drawing.Size(174, 39);
+            this.btnExaminar.TabIndex = 21;
+            this.btnExaminar.Text = "Examinar";
+            this.btnExaminar.UseVisualStyleBackColor = true;
+            this.btnExaminar.Click += new System.EventHandler(this.btnExaminar_Click);
+            // 
+            // txtProv
+            // 
+            this.txtProv.Enabled = false;
+            this.txtProv.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtProv.Location = new System.Drawing.Point(171, 446);
+            this.txtProv.Margin = new System.Windows.Forms.Padding(4);
+            this.txtProv.Name = "txtProv";
+            this.txtProv.Size = new System.Drawing.Size(324, 32);
+            this.txtProv.TabIndex = 19;
+            this.txtProv.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtProv.Visible = false;
+            // 
+            // txtCat2
+            // 
+            this.txtCat2.Enabled = false;
+            this.txtCat2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCat2.Location = new System.Drawing.Point(171, 383);
+            this.txtCat2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCat2.Name = "txtCat2";
+            this.txtCat2.Size = new System.Drawing.Size(324, 32);
+            this.txtCat2.TabIndex = 20;
+            this.txtCat2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCat2.Visible = false;
             // 
             // txtCategoria
             // 
@@ -514,30 +564,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Codigo:";
             // 
-            // txtCat2
-            // 
-            this.txtCat2.Enabled = false;
-            this.txtCat2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCat2.Location = new System.Drawing.Point(171, 383);
-            this.txtCat2.Margin = new System.Windows.Forms.Padding(4);
-            this.txtCat2.Name = "txtCat2";
-            this.txtCat2.Size = new System.Drawing.Size(324, 32);
-            this.txtCat2.TabIndex = 20;
-            this.txtCat2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtCat2.Visible = false;
-            // 
-            // txtProv
-            // 
-            this.txtProv.Enabled = false;
-            this.txtProv.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProv.Location = new System.Drawing.Point(171, 446);
-            this.txtProv.Margin = new System.Windows.Forms.Padding(4);
-            this.txtProv.Name = "txtProv";
-            this.txtProv.Size = new System.Drawing.Size(324, 32);
-            this.txtProv.TabIndex = 19;
-            this.txtProv.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtProv.Visible = false;
-            // 
             // Pantalla_Productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -564,6 +590,7 @@
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DGVdatosP)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imgPro)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -607,5 +634,7 @@
         private System.Windows.Forms.DataGridView DGVayuda2;
         private System.Windows.Forms.TextBox txtProv;
         private System.Windows.Forms.TextBox txtCat2;
+        private System.Windows.Forms.PictureBox imgPro;
+        private System.Windows.Forms.Button btnExaminar;
     }
 }

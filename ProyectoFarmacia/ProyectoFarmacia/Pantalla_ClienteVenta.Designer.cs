@@ -199,6 +199,7 @@
             this.DGVdatosC.RowTemplate.Height = 24;
             this.DGVdatosC.Size = new System.Drawing.Size(766, 560);
             this.DGVdatosC.TabIndex = 3;
+            this.DGVdatosC.Click += new System.EventHandler(this.DGVdatosC_Click);
             // 
             // panel3
             // 

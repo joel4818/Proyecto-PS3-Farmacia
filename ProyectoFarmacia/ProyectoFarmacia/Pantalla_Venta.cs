@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using ProyectoFarmacia.Entity;
+using System.Data.SqlClient;
 
 namespace ProyectoFarmacia
 {
@@ -35,6 +36,14 @@ namespace ProyectoFarmacia
                 var lst2 = from d in BD.Producto
                            select d;
                 DGVdatosP.DataSource = lst2.ToList();
+
+                SqlConnection cn = new SqlConnection("Data Source=DESKTOP-9B5R179; Initial Catalog=ProyectoFarmacia;Integrated Security=true;");
+                SqlCommand cmd = new SqlCommand("select * from Producto ", cn);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                DGVdatosP.DataSource = dt;
+                cn.Close();
             }
             //txtNventa.Text = cont.ToString();
         }

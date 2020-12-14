@@ -216,6 +216,7 @@
             this.btnReporte.Text = "               Reportes";
             this.btnReporte.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReporte.UseVisualStyleBackColor = false;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
             // 
             // btnProveedores
             // 
@@ -238,6 +239,7 @@
             this.btnProveedores.Text = "               Proveedores";
             this.btnProveedores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProveedores.UseVisualStyleBackColor = false;
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
             // 
             // btnClientes
             // 

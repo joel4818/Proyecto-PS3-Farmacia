@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using ProyectoFarmacia.Entity;
+using System.Data.SqlClient;
 
 namespace ProyectoFarmacia
 {
@@ -32,13 +33,27 @@ namespace ProyectoFarmacia
 
         }
 
+        public void Deshabilitar2()
+        {
+            txtCodigo.Enabled = false;
+            txtNombre.Enabled = false;
+            CBclie.Enabled = false;
+            txtCi.Enabled = false;
+            txtDireccion.Enabled = false;
+            txtTelefono.Enabled = false;
+        }
+
         public void CargaDatos()
         {
             using (ProyectoFarmaciaEntities1 BD = new ProyectoFarmaciaEntities1())
             {
-                var lst2 = from d in BD.Cliente
-                           select d;
-                DGVdatosC.DataSource = lst2.ToList();
+                SqlConnection cn = new SqlConnection("Data Source=DESKTOP-9B5R179; Initial Catalog=ProyectoFarmacia;Integrated Security=true;");
+                SqlCommand cmd = new SqlCommand("select * from Cliente ", cn);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                DGVdatosC.DataSource = dt;
+                cn.Close();
 
                 var lst = from d in BD.Cliente
                           select d.Paterno;
@@ -82,7 +97,7 @@ namespace ProyectoFarmacia
 
         private void CBclie_TextChanged(object sender, EventArgs e)
         {
-            Cliente pp = new Cliente();
+            /*Cliente pp = new Cliente();
             using (ProyectoFarmaciaEntities1 bd = new ProyectoFarmaciaEntities1())
             {
                 var lstcod = from d in bd.Cliente
@@ -95,7 +110,7 @@ namespace ProyectoFarmacia
                 txtCi.Text = DGVayuda.Rows[DGVayuda.CurrentRow.Index].Cells[3].Value.ToString();
                 txtDireccion.Text = DGVayuda.Rows[DGVayuda.CurrentRow.Index].Cells[4].Value.ToString();
                 txtTelefono.Text = DGVayuda.Rows[DGVayuda.CurrentRow.Index].Cells[5].Value.ToString();
-            }
+            }*/
         }
 
         private void btnProceder_Click(object sender, EventArgs e)
@@ -112,6 +127,27 @@ namespace ProyectoFarmacia
             Pantalla_Cliente cli = new Pantalla_Cliente();
             cli.Show();
             this.Close();
+        }
+
+        private void DGVdatosC_Click(object sender, EventArgs e)
+        {
+            if (ClaseCompartida.tipoCliente == 0)
+            {
+                Cliente cli2 = new Cliente();
+                string codigo;
+                codigo = DGVdatosC.Rows[DGVdatosC.CurrentRow.Index].Cells[0].Value.ToString();
+                txtCodigo.Text = codigo;
+                using (ProyectoFarmaciaEntities1 DB = new ProyectoFarmaciaEntities1())
+                {
+                    cli2 = DB.Cliente.Find(Convert.ToInt32(codigo));
+                    txtNombre.Text = cli2.Nombre;
+                    CBclie.Text = cli2.Paterno;
+                    txtCi.Text = Convert.ToString(cli2.NIT_CI);
+                    txtDireccion.Text = cli2.Direccion;
+                    txtTelefono.Text = Convert.ToString(cli2.Telefono);
+                }
+                Deshabilitar2();
+            }
         }
     }
 }

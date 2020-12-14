@@ -210,6 +210,7 @@
             this.btnEliminar.TabIndex = 19;
             this.btnEliminar.Text = "     Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnEditar
             // 
@@ -397,6 +398,7 @@
             this.txtTelefono.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefono.Location = new System.Drawing.Point(171, 379);
             this.txtTelefono.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTelefono.MaxLength = 8;
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(324, 32);
             this.txtTelefono.TabIndex = 7;

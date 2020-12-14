@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using ProyectoFarmacia.Entity;
+using System.Data.SqlClient;
 
 namespace ProyectoFarmacia
 {
@@ -60,6 +61,34 @@ namespace ProyectoFarmacia
             btnEditar.Visible = false;
             btnEliminar.Visible = false;
             btnGuardar.Visible = true;
+
+            txtCodigo.Enabled = false;
+            txtNombre.Enabled = true;
+            txtPaterno.Enabled = true;
+            txtCi.Enabled = true;
+            txtDireccion.Enabled = true;
+            txtTelefono.Enabled = true;
+
+            if (tipoA == 0)
+            {
+                using (ProyectoFarmaciaEntities1 bd = new ProyectoFarmaciaEntities1())
+                {
+                    var max = (from g in bd.Cliente
+                               select g.Codigo_Cliente).Max();
+                    int maxi = Convert.ToInt32(max);
+                    txtCodigo.Text = Convert.ToString(maxi + 1);
+                }
+            }
+            else
+            {
+                using (ProyectoFarmaciaEntities1 bd = new ProyectoFarmaciaEntities1())
+                {
+                    var max = (from g in bd.Cliente
+                               select g.Codigo_Cliente).Max();
+                    int maxi = Convert.ToInt32(max);
+                    //txtCodigo.Text = Convert.ToString(maxi + 1);
+                }
+            }
         }
         public void DeshabilitaBTN()
         {
@@ -69,35 +98,59 @@ namespace ProyectoFarmacia
             btnGuardar.Visible = false;
         }
 
+        public void Deshabilitar2()
+        {
+            txtCodigo.Enabled = false;
+            txtNombre.Enabled = false;
+            txtPaterno.Enabled = false;
+            txtCi.Enabled = false;
+            txtDireccion.Enabled = false;
+            txtTelefono.Enabled = false;
+            btnGuardar.Visible = false;
+            btnInsertar.Visible = true;
+            btnEditar.Visible = true;
+            btnEliminar.Visible = true;
+        }
+
         public void CargaDatos()
         {
-            if (ClaseCompartida.tipoCliente == 1)
+            if (ClaseCompartida.tipoCliente == 0)
             {
                 using (ProyectoFarmaciaEntities1 BD = new ProyectoFarmaciaEntities1())
                 {
-                    var lst2 = from d in BD.Cliente
-                               select d;
-                    DGVdatosC.DataSource = lst2.ToList();
-                    var max = (from d in BD.Cliente
-                               select d.Codigo_Cliente).Max();
-                    int maxi = Convert.ToInt32(max);
-                    txtCodigo.Text = Convert.ToString(maxi + 1);
-                }
-                HabilitaBTN();
-            }
-            else
-            {
-                using (ProyectoFarmaciaEntities1 BD = new ProyectoFarmaciaEntities1())
-                {
-                    var lst2 = from d in BD.Cliente
-                               select d;
-                    DGVdatosC.DataSource = lst2.ToList();
+                    SqlConnection cn = new SqlConnection("Data Source=DESKTOP-9B5R179; Initial Catalog=ProyectoFarmacia;Integrated Security=true;");
+                    SqlCommand cmd = new SqlCommand("select * from Cliente ", cn);
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    DGVdatosC.DataSource = dt;
+                    cn.Close();
+
                     var max = (from d in BD.Cliente
                                select d.Codigo_Cliente).Max();
                     int maxi = Convert.ToInt32(max);
                     txtCodigo.Text = Convert.ToString(maxi + 1);
                 }
                 DeshabilitaBTN();
+            }
+            else
+            {
+                using (ProyectoFarmaciaEntities1 BD = new ProyectoFarmaciaEntities1())
+                {
+                    SqlConnection cn = new SqlConnection("Data Source=DESKTOP-9B5R179; Initial Catalog=ProyectoFarmacia;Integrated Security=true;");
+                    SqlCommand cmd = new SqlCommand("select * from Cliente ", cn);
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    DGVdatosC.DataSource = dt;
+                    cn.Close();
+
+                    var max = (from d in BD.Cliente
+                               select d.Codigo_Cliente).Max();
+                    int maxi = Convert.ToInt32(max);
+                    txtCodigo.Text = Convert.ToString(maxi + 1);
+                }
+                HabilitaBTN();
             }
         }
 
@@ -131,37 +184,100 @@ namespace ProyectoFarmacia
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             int m = 0;
-            if (ClaseCompartida.tipoCliente == 1)
+            if (ClaseCompartida.tipoCliente == 0)
             {
-                if (txtCodigo.Text != "" && txtNombre.Text != "" && txtPaterno.Text != "" &&
-                txtCi.Text != "" && txtDireccion.Text != "" && txtTelefono.Text != "")
+                if (tipoA == 0)
                 {
-                    Cliente cli1 = new Cliente();
-                    using (ProyectoFarmaciaEntities1 DB = new ProyectoFarmaciaEntities1())
+                    if (txtCodigo.Text != "" && txtNombre.Text != "" && txtPaterno.Text != "" &&
+                    txtCi.Text != "" && txtDireccion.Text != "" && txtTelefono.Text != "")
                     {
-                        var max = (from d in DB.Cliente
-                                   select d.Codigo_Cliente).Max();
-                        int maxi = Convert.ToInt32(max);
-
-                        for (int n = 1; n <= maxi; n++)
+                        Cliente cli1 = new Cliente();
+                        using (ProyectoFarmaciaEntities1 DB = new ProyectoFarmaciaEntities1())
                         {
-                            cli1 = DB.Cliente.Find(n);
+                            var max = (from d in DB.Cliente
+                                       select d.Codigo_Cliente).Max();
+                            int maxi = Convert.ToInt32(max);
 
-                            if (txtCi.Text == Convert.ToString(cli1.NIT_CI))
+                            for (int n = 1; n <= maxi; n++)
                             {
-                                //MessageBox.Show("Existe ya uno");
-                                m = 1;
-                                n = maxi + 1;
+                                cli1 = DB.Cliente.Find(n);
+
+                                if (txtCi.Text == Convert.ToString(cli1.NIT_CI))
+                                {
+                                    //MessageBox.Show("Existe ya uno");
+                                    m = 1;
+                                    n = maxi + 1;
+                                }
+                                else
+                                {
+                                    //MessageBox.Show("Es Nuevo");
+                                    m = 0;
+                                }
+                            }
+
+                            if (m == 0)
+                            {
+                                Cliente emp = new Cliente();
+                                emp.Codigo_Cliente = Convert.ToInt32(txtCodigo.Text);
+                                emp.Nombre = txtNombre.Text;
+                                emp.Paterno = txtPaterno.Text;
+                                emp.NIT_CI = Convert.ToInt32(txtCi.Text);
+                                emp.Direccion = txtDireccion.Text;
+                                emp.Telefono = Convert.ToInt32(txtTelefono.Text);
+                                DB.Cliente.Add(emp);
+                                DB.SaveChanges();
+                                //DB.Entry(emp).State = System.Data.Entity.EntityState.Modified;
+                                //DB.SaveChanges();
+
+                                MessageBox.Show("Registro Realizado!!!");
+                                Cliente emp1 = new Cliente();
+                                
+                                CargaDatos();
+                                DeshabilitaBTN();
+                                GBdatos.Enabled = false;
+                                //emp1.Show();
                             }
                             else
                             {
-                                //MessageBox.Show("Es Nuevo");
-                                m = 0;
+                                MessageBox.Show("El carnet introducido ya fue registrado");
                             }
                         }
-
-                        if (m == 0)
+                    }
+                    else
+                    {
+                        MessageBox.Show("Faltan datos!!!");
+                    }
+                }
+                else
+                {
+                    if (txtCodigo.Text != "" && txtNombre.Text != "" && txtPaterno.Text != "" &&
+                    txtCi.Text != "" && txtDireccion.Text != "" && txtTelefono.Text != "")
+                    {
+                        Cliente cli1 = new Cliente();
+                        using (ProyectoFarmaciaEntities1 DB = new ProyectoFarmaciaEntities1())
                         {
+                            /*
+                            var max = (from d in DB.Cliente
+                                       select d.Codigo_Cliente).Max();
+                            int maxi = Convert.ToInt32(max);
+
+                            for (int n = 1; n <= maxi; n++)
+                            {
+                                cli1 = DB.Cliente.Find(n);
+
+                                if (txtCi.Text == Convert.ToString(cli1.NIT_CI))
+                                {
+                                    //MessageBox.Show("Existe ya uno");
+                                    m = 1;
+                                    n = maxi + 1;
+                                }
+                                else
+                                {
+                                    //MessageBox.Show("Es Nuevo");
+                                    m = 0;
+                                }
+                            }*/
+                            
                             Cliente emp = new Cliente();
                             emp.Codigo_Cliente = Convert.ToInt32(txtCodigo.Text);
                             emp.Nombre = txtNombre.Text;
@@ -169,29 +285,33 @@ namespace ProyectoFarmacia
                             emp.NIT_CI = Convert.ToInt32(txtCi.Text);
                             emp.Direccion = txtDireccion.Text;
                             emp.Telefono = Convert.ToInt32(txtTelefono.Text);
-                            DB.Cliente.Add(emp);
+                            DB.Entry(emp).State = System.Data.Entity.EntityState.Modified;
                             DB.SaveChanges();
-                            //DB.Entry(emp).State = System.Data.Entity.EntityState.Modified;
-                            //DB.SaveChanges();
 
-                            MessageBox.Show("Registro Realizado!!!");
+                            MessageBox.Show("Registro Modificado!!!");
                             Cliente emp1 = new Cliente();
 
-                            Pantalla_ClienteVenta form = new Pantalla_ClienteVenta();
-                            form.Show();
-                            this.Close();
+                            CargaDatos();
+                            DeshabilitaBTN();
+                            GBdatos.Enabled = false;
                             //emp1.Show();
-                        }
-                        else
-                        {
-                            MessageBox.Show("El carnet introducido ya fue registrado");
+                            /*
+                            if (m == 0)
+                            {
+                                
+                            }
+                            else
+                            {
+                                MessageBox.Show("El carnet introducido ya fue registrado");
+                            }*/
                         }
                     }
+                    else
+                    {
+                        MessageBox.Show("Faltan datos!!!");
+                    }
                 }
-                else
-                {
-                    MessageBox.Show("Faltan datos!!!");
-                }
+                
             }
             else
             {
@@ -237,9 +357,12 @@ namespace ProyectoFarmacia
                             //DB.SaveChanges();
 
                             MessageBox.Show("Registro Realizado!!!");
-                            CargaDatos();
+
                             //emp1.Show();
-                            HabilitaBTN();
+
+                            Pantalla_ClienteVenta form = new Pantalla_ClienteVenta();
+                            form.Show();
+                            this.Close();
                         }
                         else
                         {
@@ -256,24 +379,37 @@ namespace ProyectoFarmacia
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            if (ClaseCompartida.tipoCliente == 1)
+            
+            if (ClaseCompartida.tipoCliente == 0)
+            {
+                if (tipoA == 0)
+                {
+                    CargaDatos();
+                    DeshabilitaBTN();
+                    Blanco();
+                    GBdatos.Enabled = false;
+                    tipoA = 2;
+                }
+                else if (tipoA == 1)
+                {
+                    CargaDatos();
+                    DeshabilitaBTN();
+                    Blanco();
+                    GBdatos.Enabled = false;
+                    tipoA = 2;
+                }
+                else
+                {
+                    Pantalla_Menu form = new Pantalla_Menu();
+                    form.Show();
+                    this.Close();
+                }
+            }
+            else
             {
                 Pantalla_ClienteVenta form = new Pantalla_ClienteVenta();
                 form.Show();
-                this.Close();
-            }
-            if (ClaseCompartida.tipoCliente == 0)
-            {
-                Pantalla_Menu form = new Pantalla_Menu();
-                form.Show();
-                this.Close();
-            }
-            if (ClaseCompartida.tipoCliente == 2)
-            {
-                CargaDatos();
-                DeshabilitaBTN();
-                Blanco();
-                ClaseCompartida.tipoCliente = 0;
+                this.Close();                
             }
         }
 
@@ -309,20 +445,24 @@ namespace ProyectoFarmacia
             }
         }
 
+        int tipoA = 2;
         private void btnInsertar_Click(object sender, EventArgs e)
         {
-            CargaDatos();
             GBdatos.Enabled = true;
-            ClaseCompartida.tipoCliente = 2;
+            ClaseCompartida.tipoCliente = 0;            
+            tipoA = 0;
+            Blanco();
+            CargaDatos();
             HabilitaBTN();
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            CargaDatos();
+            //CargaDatos();
             GBdatos.Enabled = true;
-            ClaseCompartida.tipoCliente = 2;
+            ClaseCompartida.tipoCliente = 0;
             HabilitaBTN();
+            tipoA = 1;
         }
 
         private void DGVdatosC_Click(object sender, EventArgs e)
@@ -342,7 +482,34 @@ namespace ProyectoFarmacia
                     txtDireccion.Text = cli2.Direccion;
                     txtTelefono.Text = Convert.ToString(cli2.Telefono);
                 }
+                Deshabilitar2();
             }            
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            DialogResult Respuesta;
+            if (txtCodigo.Text != "")
+            {
+                Respuesta = MessageBox.Show("Esta seguro de eliminar el Cliente", "Eliminar", MessageBoxButtons.YesNo);
+                if (Respuesta == DialogResult.Yes)
+                {
+                    using (ProyectoFarmaciaEntities1 DB = new ProyectoFarmaciaEntities1())
+                    {
+                        Cliente EliminarPersona = DB.Cliente.Find(Convert.ToInt32(txtCodigo.Text));
+                        DB.Cliente.Remove(EliminarPersona);
+                        DB.SaveChanges();
+                        MessageBox.Show("Dato eliminado");
+                        Blanco();
+                    }
+                    CargaDatos();
+                    tipoA = 2;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Debe Seleccionar item");
+            }
         }
     }
 }

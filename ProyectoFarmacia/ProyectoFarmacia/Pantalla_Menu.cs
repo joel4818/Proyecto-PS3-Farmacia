@@ -108,22 +108,30 @@ namespace ProyectoFarmacia
 
         private void btnAdministrador_Click(object sender, EventArgs e)
         {
-            Ocultar_Submenu();
+            Pantalla_Admin formProd = new Pantalla_Admin();
+            formProd.Show();
+            this.Hide();
         }
 
         private void btnFacultativo_Click(object sender, EventArgs e)
         {
-            Ocultar_Submenu();
+            Pantalla_Facultativo formProd = new Pantalla_Facultativo();
+            formProd.Show();
+            this.Hide();
         }
 
         private void btnNoFacultativo_Click(object sender, EventArgs e)
         {
-            Ocultar_Submenu();
+            Pantalla_NoFacultativo formProd = new Pantalla_NoFacultativo();
+            formProd.Show();
+            this.Hide();
         }
 
         private void btnRepartidor_Click(object sender, EventArgs e)
         {
-            Ocultar_Submenu();
+            Pantalla_Repartidor formProd = new Pantalla_Repartidor();
+            formProd.Show();
+            this.Hide();
         }
 
         private int numeroImagen = 1;
@@ -175,6 +183,20 @@ namespace ProyectoFarmacia
             ClaseCompartida.tipoCliente = 0;
             Pantalla_Cliente formVenta = new Pantalla_Cliente();
             formVenta.Show();
+            this.Hide();
+        }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            Pantalla_Reportes formRep = new Pantalla_Reportes();
+            formRep.Show();
+            this.Hide();
+        }
+
+        private void btnProveedores_Click(object sender, EventArgs e)
+        {
+            Pantalla_Proveedores formProd = new Pantalla_Proveedores();
+            formProd.Show();
             this.Hide();
         }
     }

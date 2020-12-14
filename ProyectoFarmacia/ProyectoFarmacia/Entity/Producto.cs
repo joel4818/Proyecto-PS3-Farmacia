@@ -28,6 +28,7 @@ namespace ProyectoFarmacia.Entity
         public Nullable<int> Codigo_Categoria { get; set; }
         public Nullable<int> Codigo_Proveedor { get; set; }
         public string Descripcion { get; set; }
+        public byte[] Imagen { get; set; }
     
         public virtual Categoria Categoria { get; set; }
         public virtual Proveedor Proveedor { get; set; }
