@@ -25,7 +25,8 @@ namespace ProyectoFarmacia
         {
             cont = 0;
             CargaDatos();
-            DGVayuda.Visible = false;            
+            DGVayuda.Visible = false;
+            CBclie.Enabled = false;
         }
 
         private void label3_Click(object sender, EventArgs e)

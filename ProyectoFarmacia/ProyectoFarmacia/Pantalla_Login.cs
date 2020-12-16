@@ -140,6 +140,10 @@ namespace ProyectoFarmacia
                                 this.Hide();
                                 formMenu.Show();
                             }
+                            else if (autentificar.Codigo_Tipo_Usuario == 5)
+                            {
+                                MessageBox.Show("Este usuario no tiene permitido el Acceso");
+                            }
                             else
                             {
                                 MessageBox.Show("Usuario Incorrecto");
@@ -180,6 +184,13 @@ namespace ProyectoFarmacia
                 btnMostrar.ImageLocation = string.Format(@"Images\visible.png");
             }
             txtPassword.Focus();
+        }
+
+        private void linkContraseña_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Pantalla_Confirmar formProd = new Pantalla_Confirmar();
+            formProd.Show();
+            this.Close();
         }
     }
 }

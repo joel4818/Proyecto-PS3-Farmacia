@@ -155,7 +155,18 @@ namespace ProyectoFarmacia
         private void Pantalla_Menu_Load(object sender, EventArgs e)
         {
             timer2.Enabled = true;
-            txtHora.BackColor = Color.Transparent;  
+            txtHora.BackColor = Color.Transparent;
+
+            if (ClaseCompartida.ID == 3)
+            {
+                btnReporte.Visible = false;
+                btnPersonal.Visible = false;
+                btnProveedores.Visible = false;
+            }
+            else if (ClaseCompartida.ID == 2)
+            {
+                btnReporte.Visible = false;
+            }
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -196,6 +207,13 @@ namespace ProyectoFarmacia
         private void btnProveedores_Click(object sender, EventArgs e)
         {
             Pantalla_Proveedores formProd = new Pantalla_Proveedores();
+            formProd.Show();
+            this.Hide();
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            Pantalla_Login formProd = new Pantalla_Login();
             formProd.Show();
             this.Hide();
         }

@@ -21,5 +21,9 @@ namespace ProyectoFarmacia
 
         public static int[,] productos = new int[6, 2];
         public static int carrito;
+
+        public static int tipoUser;
+        public static int formaUser;
+        public static String nomUser;
     }
 }

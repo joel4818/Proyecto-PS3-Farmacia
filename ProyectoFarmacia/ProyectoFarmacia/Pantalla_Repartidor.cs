@@ -38,6 +38,17 @@ namespace ProyectoFarmacia
                 GBdatos.Enabled = false;
             }
             DGVayuda.Visible = false;
+
+            if (ClaseCompartida.ID == 2)
+            {
+                btnInsertar.Visible = false;
+                btnEditar.Visible = false;
+                btnEliminar.Visible = false;
+            }
+            else
+            {
+
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -75,7 +86,7 @@ namespace ProyectoFarmacia
         {
             SqlConnection cn = new SqlConnection("Data Source=DESKTOP-9B5R179; Initial Catalog=ProyectoFarmacia;Integrated Security=true;");
             SqlCommand cmd = new SqlCommand("select * from Persona " +
-                "where Codigo_Tipo_Usuario = 2 ", cn);
+                "where Codigo_Tipo_Usuario = 4 ", cn);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);

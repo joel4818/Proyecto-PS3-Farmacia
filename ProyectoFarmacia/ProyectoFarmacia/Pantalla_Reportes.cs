@@ -131,7 +131,7 @@ namespace ProyectoFarmacia
 
             cbMes.Items.Add('1'); cbMes.Items.Add('2'); cbMes.Items.Add('3'); cbMes.Items.Add('4');
             cbMes.Items.Add('5'); cbMes.Items.Add('6'); cbMes.Items.Add('7'); cbMes.Items.Add('8');
-            cbMes.Items.Add('9'); cbMes.Items.Add("10"); cbMes.Items.Add("11"); cbMes.Items.Add("12"); cbMes.Items.Add("13");
+            cbMes.Items.Add('9'); cbMes.Items.Add("10"); cbMes.Items.Add("11"); cbMes.Items.Add("12");
 
             cbDia2.Items.Add('1'); cbDia2.Items.Add('2'); cbDia2.Items.Add('3'); cbDia2.Items.Add('4');
             cbDia2.Items.Add('5'); cbDia2.Items.Add('6'); cbDia2.Items.Add('7'); cbDia2.Items.Add('8');
@@ -144,7 +144,7 @@ namespace ProyectoFarmacia
 
             cbMes2.Items.Add('1'); cbMes2.Items.Add('2'); cbMes2.Items.Add('3'); cbMes2.Items.Add('4');
             cbMes2.Items.Add('5'); cbMes2.Items.Add('6'); cbMes2.Items.Add('7'); cbMes2.Items.Add('8');
-            cbMes2.Items.Add('9'); cbMes2.Items.Add("10"); cbMes2.Items.Add("11"); cbMes2.Items.Add("12"); cbMes2.Items.Add("13");
+            cbMes2.Items.Add('9'); cbMes2.Items.Add("10"); cbMes2.Items.Add("11"); cbMes2.Items.Add("12");
         }
 
         private void btnMinimizar_Click(object sender, EventArgs e)

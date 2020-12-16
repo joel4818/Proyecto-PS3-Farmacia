@@ -38,6 +38,13 @@ namespace ProyectoFarmacia
                 GBdatos.Enabled = false;
             }
             DGVayuda.Visible = false;
+
+            if (ClaseCompartida.ID == 2)
+            {
+                btnInsertar.Visible = false;
+                btnEditar.Visible = false;
+                btnEliminar.Visible = false;
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -171,6 +178,12 @@ namespace ProyectoFarmacia
                         GBdatos.Enabled = false;
                         DeshabilitaBTN();
                         Blanco();
+
+                        ClaseCompartida.tipoUser = 3;
+                        ClaseCompartida.formaUser = 1;
+                        Pantalla_Usuarios formProd = new Pantalla_Usuarios();
+                        formProd.Show();
+                        this.Close();
                     }
                 }
                 else

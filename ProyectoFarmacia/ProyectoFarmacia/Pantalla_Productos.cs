@@ -136,6 +136,12 @@ namespace ProyectoFarmacia
 
         public void Deshabilitar()
         {
+            if (ClaseCompartida.ID == 3)
+            {
+                btnInsertar.Visible = false;
+                btnEditar.Visible = false;
+                btnEliminar.Visible = false;
+            }
             txtCodigo.Enabled = false;
             txtNombre.Enabled = false;
             txtFecha.Enabled = false;

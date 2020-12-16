@@ -38,6 +38,13 @@ namespace ProyectoFarmacia
                 GBdatos.Enabled = false;
             }
             DGVayuda.Visible = false;
+
+            if (ClaseCompartida.ID == 3)
+            {
+                btnInsertar.Visible = false;
+                btnEditar.Visible = false;
+                btnEliminar.Visible = false;
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -235,6 +242,17 @@ namespace ProyectoFarmacia
                                 CargaDatos();
                                 DeshabilitaBTN();
                                 GBdatos.Enabled = false;
+
+                                DialogResult Respuesta;
+                                Respuesta = MessageBox.Show("Desea crear un Usuario para la plataforma online?", "Usuario Online", MessageBoxButtons.YesNo);
+                                if (Respuesta == DialogResult.Yes)
+                                {
+                                    ClaseCompartida.tipoUser = 5;
+                                    ClaseCompartida.formaUser = 1;
+                                    Pantalla_Usuarios formProd = new Pantalla_Usuarios();
+                                    formProd.Show();
+                                    this.Close();
+                                }
                                 //emp1.Show();
                             }
                             else
