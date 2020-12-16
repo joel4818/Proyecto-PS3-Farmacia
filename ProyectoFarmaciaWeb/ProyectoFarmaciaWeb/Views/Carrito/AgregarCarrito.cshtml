@@ -6,18 +6,19 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="~/css/compra.css">
-    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/estiloBotones.css" />
 </head>
-<h2>AgregarCarrito</h2>
+<h2 class="alinear" style="color:black">Agregar Carrito</h2>
 
-<form >
-    <input type="text" id="login" class="fadeIn second" name="direc" placeholder="Direccion" /><br />
-    <input type="text" id="login" class="fadeIn second" name="desc" placeholder="Descripcion" />
+<form hidden >
+    <input hidden type="text" id="login" class="fadeIn second" name="direc" placeholder="Direccion" /><br />
+    <input hidden type="text" id="login" class="fadeIn second" name="desc" placeholder="Descripcion" />
 </form>
 
-<table>
+<table class="table">
     <thead>
-        <tr>
+        <tr class="cabecera">
             <th>ID</th>
             <th>Nombre</th>
             <th>Precio</th>
@@ -42,16 +43,18 @@
                     <td>Bs. @(item.Producto.Precio_Unitario)</td>
                     <td>@item.Cantidad</td>
                     <td>Bs. @(item.Cantidad * item.Producto.Precio_Unitario)</td>
-                    <td>@Html.ActionLink("Eliminar", "Delete", "Carrito", new { Id = item.Producto.Codigo_Producto }, null)</td>
+                    <td>@Html.ActionLink("Eliminar", "Delete", "Carrito", new { Id = item.Producto.Codigo_Producto }, new { @class= "eliminarBoton"})</td>
                 </tr>
             }
         }
     </tbody>
     <tfoot>
-        <tr>
+        <tr style="color:red">
             <th colspan="4">Total</th>
             <th>Bs. @(total)</th>
         </tr>
     </tfoot>
 </table>
-@Html.ActionLink("Seguir comprando", "Index", "Productos") | @Html.ActionLink("Terminar Compra", "FinalizarCompra", "Carrito", null, null)
+<div class="alinear">
+    @Html.ActionLink("Seguir comprando", "Index", "Productos", new { @class = "agregarBoton "}) | @Html.ActionLink("Terminar Compra", "FinalizarCompra", "Carrito", new { @class = "terminarCompra "})
+</div>

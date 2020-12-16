@@ -6,20 +6,21 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="~/css/compra.css">
+    @*<link rel="stylesheet" href="~/css/compra.css">*@
+    <link rel="stylesheet" href="~/css/estiloBotones.css">
 
 </head>
 <body>
-    <h2>Productos</h2>
+    <h2 class="alinear">Productos</h2>
 
     <div style="overflow-x: auto">
-        <table>
+        <table class="table">
             <thead>
-                <tr>
+                <tr class="cabecera">
                     <th hidden>ID</th>
                     <th>Nombre</th>
                     <th>Precio</th>
-                    <th hidden>Cantidad</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -30,7 +31,7 @@
                         <td>@item.Nombre_Producto</td>
                         <td>Bs. @(item.Precio_Unitario)</td>
                         <td hidden><input type="number" class="form-control" /></td>
-                        <td>@Html.ActionLink("Agregar", "AgregarCarrito", "Carrito", new { Id = item.Codigo_Producto }, null)</td>
+                        <td class="btn">@Html.ActionLink("Agregar", "AgregarCarrito", "Carrito", new { Id = item.Codigo_Producto }, new { @class = "agregarBoton" })</td>
                         <td hidden><a href="#" class="agregar">Agregar</a></td>
                     </tr>
                 }

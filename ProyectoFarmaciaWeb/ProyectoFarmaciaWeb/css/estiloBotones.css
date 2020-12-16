@@ -1,0 +1,92 @@
+﻿.table {
+    border: 1px solid #06A3B9;
+    width: 80%;
+    align-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.cabecera {
+    background: #06A3B9;
+    color: #FFFFFF;
+    font-weight:bold;
+}
+.agregarBoton {
+    text-decoration: none;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background: #3FB906;
+    border-radius: 15px;
+    border: 2px solid;
+    /*width: 200px;
+    height: 40px;*/
+    text-align: center;
+    /*margin-top: 5px;*/
+}
+.eliminarBoton {
+    text-decoration: none;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ff0000;
+    background: #570202;
+    border-radius: 15px;
+    border: 2px solid;
+    /*width: 200px;
+    height: 40px;*/
+    text-align: center;
+    /*margin-top: 5px;*/
+}
+.eliminarBoton:hover{
+    text-decoration:none;
+    color:white;
+}
+
+    .agregarBoton:hover {
+        text-decoration:none;
+        color:black;
+    }
+.btn {
+    align-content: center;
+    text-align: center;
+}
+.alto{
+    padding:50px;
+}
+.alinear{
+    width: 90%;
+    text-align: center;
+    align-content:center;
+}
+.terminarCompra {
+    text-decoration: none;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #00bdff;
+    background: #010f85;
+    border-radius: 15px;
+    border: 2px solid;
+    /*width: 200px;
+    height: 40px;*/
+    text-align: center;
+    /*margin-top: 5px;*/
+}
+.terminarCompra:hover{
+    text-decoration:none;
+    color:white;
+}
+#fondo {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #18dace;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+}

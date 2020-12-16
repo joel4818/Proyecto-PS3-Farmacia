@@ -207,6 +207,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="css\compra.css" />
+    <Content Include="css\estiloBotones.css" />
     <Content Include="css\estilos.css" />
     <Content Include="css\style.css" />
     <Content Include="css\ubi.css" />
@@ -245,6 +246,8 @@
     <Content Include="img\figuvit.jpg" />
     <Content Include="img\fondo.jpg" />
     <Content Include="img\icon.png" />
+    <Content Include="img\like.png" />
+    <Content Include="img\like2.png" />
     <Content Include="img\logo.png" />
     <Content Include="img\mision.png" />
     <Content Include="img\muestra.jpg" />
