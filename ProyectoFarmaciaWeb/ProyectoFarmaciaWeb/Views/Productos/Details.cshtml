@@ -1,0 +1,76 @@
+﻿@model ProyectoFarmaciaWeb.Models.Producto
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Producto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre_Producto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre_Producto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha_Vencimiento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fecha_Vencimiento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Stock)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Stock)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Precio_Unitario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Precio_Unitario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Categoria.Nombre_Categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categoria.Nombre_Categoria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Proveedor.Nombre_Proveedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Proveedor.Nombre_Proveedor)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <!--
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Codigo_Producto }) 
+    -->
+    @Html.ActionLink("Regresar", "Index")
+</p>

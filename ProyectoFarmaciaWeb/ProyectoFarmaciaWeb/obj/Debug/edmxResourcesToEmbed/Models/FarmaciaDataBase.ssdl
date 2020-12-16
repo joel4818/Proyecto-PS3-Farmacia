@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Models.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="Codigo_Categoria" />
+    </Key>
+    <Property Name="Codigo_Categoria" Type="int" Nullable="false" />
+    <Property Name="Nombre_Categoria" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="Codigo_Cliente" />
+    </Key>
+    <Property Name="Codigo_Cliente" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Paterno" Type="varchar" MaxLength="50" />
+    <Property Name="NIT_CI" Type="int" />
+    <Property Name="Direccion" Type="varchar" MaxLength="30" />
+    <Property Name="Telefono" Type="int" />
+  </EntityType>
+  <EntityType Name="Comprobante">
+    <Key>
+      <PropertyRef Name="Numero_Comprobante" />
+    </Key>
+    <Property Name="Numero_Comprobante" Type="int" Nullable="false" />
+    <Property Name="Fecha_Emision" Type="date" />
+    <Property Name="Estado" Type="varchar" MaxLength="50" />
+    <Property Name="Detalle" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Detalle_Pedido">
+    <Key>
+      <PropertyRef Name="Codigo_Detalle" />
+    </Key>
+    <Property Name="Codigo_Detalle" Type="int" Nullable="false" />
+    <Property Name="Estado_Pedido" Type="varchar" MaxLength="50" />
+    <Property Name="Subtotal" Type="float" />
+  </EntityType>
+  <EntityType Name="Detalle_Venta">
+    <Key>
+      <PropertyRef Name="Codigo_Detalle" />
+    </Key>
+    <Property Name="Codigo_Detalle" Type="int" Nullable="false" />
+    <Property Name="Monto_Total" Type="float" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Farmacia">
+    <Key>
+      <PropertyRef Name="Id_Farmacia" />
+    </Key>
+    <Property Name="Id_Farmacia" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar" MaxLength="50" />
+    <Property Name="Horario" Type="varchar" MaxLength="50" />
+    <Property Name="Id_Personas" Type="int" />
+  </EntityType>
+  <EntityType Name="pedido">
+    <Key>
+      <PropertyRef Name="Codigo_Pedido" />
+    </Key>
+    <Property Name="Codigo_Pedido" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha_Hora_Pedido" Type="date" />
+    <Property Name="Fecha_Hora_Entrega" Type="date" />
+    <Property Name="Codigo_Direccion_Pedido" Type="int" />
+    <Property Name="Codigo_Personas" Type="int" />
+    <Property Name="Codigo_Detalle_Pedido" Type="int" />
+    <Property Name="Codigo_Cliente" Type="int" />
+    <Property Name="Codigo_Venta" Type="int" />
+    <Property Name="Numero_Comprobante" Type="int" />
+  </EntityType>
+  <EntityType Name="Persona">
+    <Key>
+      <PropertyRef Name="Id_Personas" />
+    </Key>
+    <Property Name="Id_Personas" Type="int" Nullable="false" />
+    <Property Name="Codigo_Tipo_Usuario" Type="int" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Paterno" Type="varchar" MaxLength="50" />
+    <Property Name="Materno" Type="varchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar" MaxLength="50" />
+    <Property Name="Fecha_Nacimiento" Type="date" />
+    <Property Name="Correo_Electronico" Type="varchar" MaxLength="100" />
+    <Property Name="Telefono" Type="int" />
+  </EntityType>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="Codigo_Producto" />
+    </Key>
+    <Property Name="Codigo_Producto" Type="int" Nullable="false" />
+    <Property Name="Nombre_Producto" Type="varchar" MaxLength="50" />
+    <Property Name="Fecha_Vencimiento" Type="date" />
+    <Property Name="Stock" Type="int" />
+    <Property Name="Precio_Unitario" Type="float" />
+    <Property Name="Codigo_Categoria" Type="int" />
+    <Property Name="Codigo_Proveedor" Type="int" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Proveedor">
+    <Key>
+      <PropertyRef Name="Codigo_Proveedor" />
+    </Key>
+    <Property Name="Codigo_Proveedor" Type="int" Nullable="false" />
+    <Property Name="Nombre_Proveedor" Type="varchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar" MaxLength="50" />
+    <Property Name="Telefono" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Tipo_Usuario">
+    <Key>
+      <PropertyRef Name="Codigo_Tipo_Usuario" />
+    </Key>
+    <Property Name="Codigo_Tipo_Usuario" Type="int" Nullable="false" />
+    <Property Name="Tipo_Usuario" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Ubicacion_Pedido">
+    <Key>
+      <PropertyRef Name="Codigo_Ubicacion" />
+    </Key>
+    <Property Name="Codigo_Ubicacion" Type="int" Nullable="false" />
+    <Property Name="Latitud" Type="float" />
+    <Property Name="Longitud" Type="float" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="Nombre_Usuario" />
+    </Key>
+    <Property Name="Nombre_Usuario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contrasenia" Type="varchar" MaxLength="250" />
+    <Property Name="Codigo_Tipo_Usuario" Type="int" />
+  </EntityType>
+  <EntityType Name="Venta">
+    <Key>
+      <PropertyRef Name="Codigo_Venta" />
+    </Key>
+    <Property Name="Codigo_Venta" Type="int" Nullable="false" />
+    <Property Name="Codigo_Cliente" Type="int" />
+    <Property Name="Id_Personas" Type="int" />
+    <Property Name="Codigo_Producto" Type="int" />
+    <Property Name="Codigo_Detalle_Venta" Type="int" />
+    <Property Name="Cantidad" Type="int" />
+    <Property Name="Fecha_Venta" Type="date" />
+    <Property Name="Tipo_Venta" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK__Farmacia__Id_Per__29572725">
+    <End Role="Persona" Type="Self.Persona" Multiplicity="0..1" />
+    <End Role="Farmacia" Type="Self.Farmacia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Persona">
+        <PropertyRef Name="Id_Personas" />
+      </Principal>
+      <Dependent Role="Farmacia">
+        <PropertyRef Name="Id_Personas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__pedido__Codigo_C__34C8D9D1">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="pedido" Type="Self.pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Codigo_Cliente" />
+      </Principal>
+      <Dependent Role="pedido">
+        <PropertyRef Name="Codigo_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__pedido__Codigo_D__31EC6D26">
+    <End Role="Ubicacion_Pedido" Type="Self.Ubicacion_Pedido" Multiplicity="0..1" />
+    <End Role="pedido" Type="Self.pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ubicacion_Pedido">
+        <PropertyRef Name="Codigo_Ubicacion" />
+      </Principal>
+      <Dependent Role="pedido">
+        <PropertyRef Name="Codigo_Direccion_Pedido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__pedido__Codigo_D__33D4B598">
+    <End Role="Detalle_Pedido" Type="Self.Detalle_Pedido" Multiplicity="0..1" />
+    <End Role="pedido" Type="Self.pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Detalle_Pedido">
+        <PropertyRef Name="Codigo_Detalle" />
+      </Principal>
+      <Dependent Role="pedido">
+        <PropertyRef Name="Codigo_Detalle_Pedido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__pedido__Codigo_P__32E0915F">
+    <End Role="Persona" Type="Self.Persona" Multiplicity="0..1" />
+    <End Role="pedido" Type="Self.pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Persona">
+        <PropertyRef Name="Id_Personas" />
+      </Principal>
+      <Dependent Role="pedido">
+        <PropertyRef Name="Codigo_Personas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__pedido__Codigo_V__35BCFE0A">
+    <End Role="Venta" Type="Self.Venta" Multiplicity="0..1" />
+    <End Role="pedido" Type="Self.pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Venta">
+        <PropertyRef Name="Codigo_Venta" />
+      </Principal>
+      <Dependent Role="pedido">
+        <PropertyRef Name="Codigo_Venta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__pedido__Numero_C__36B12243">
+    <End Role="Comprobante" Type="Self.Comprobante" Multiplicity="0..1" />
+    <End Role="pedido" Type="Self.pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comprobante">
+        <PropertyRef Name="Numero_Comprobante" />
+      </Principal>
+      <Dependent Role="pedido">
+        <PropertyRef Name="Numero_Comprobante" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Persona__Codigo___22AA2996">
+    <End Role="Tipo_Usuario" Type="Self.Tipo_Usuario" Multiplicity="0..1" />
+    <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Usuario">
+        <PropertyRef Name="Codigo_Tipo_Usuario" />
+      </Principal>
+      <Dependent Role="Persona">
+        <PropertyRef Name="Codigo_Tipo_Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Producto__Codigo__25869641">
+    <End Role="Categoria" Type="Self.Categoria" Multiplicity="0..1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categoria">
+        <PropertyRef Name="Codigo_Categoria" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="Codigo_Categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Producto__Codigo__267ABA7A">
+    <End Role="Proveedor" Type="Self.Proveedor" Multiplicity="0..1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedor">
+        <PropertyRef Name="Codigo_Proveedor" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="Codigo_Proveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Usuarios__Codigo__145C0A3F">
+    <End Role="Tipo_Usuario" Type="Self.Tipo_Usuario" Multiplicity="0..1" />
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Usuario">
+        <PropertyRef Name="Codigo_Tipo_Usuario" />
+      </Principal>
+      <Dependent Role="Usuarios">
+        <PropertyRef Name="Codigo_Tipo_Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Venta__Codigo_Cl__2C3393D0">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Venta" Type="Self.Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Codigo_Cliente" />
+      </Principal>
+      <Dependent Role="Venta">
+        <PropertyRef Name="Codigo_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Venta__Codigo_De__2F10007B">
+    <End Role="Detalle_Venta" Type="Self.Detalle_Venta" Multiplicity="0..1" />
+    <End Role="Venta" Type="Self.Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Detalle_Venta">
+        <PropertyRef Name="Codigo_Detalle" />
+      </Principal>
+      <Dependent Role="Venta">
+        <PropertyRef Name="Codigo_Detalle_Venta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Venta__Codigo_Pr__2E1BDC42">
+    <End Role="Producto" Type="Self.Producto" Multiplicity="0..1" />
+    <End Role="Venta" Type="Self.Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="Codigo_Producto" />
+      </Principal>
+      <Dependent Role="Venta">
+        <PropertyRef Name="Codigo_Producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Venta__Id_Person__2D27B809">
+    <End Role="Persona" Type="Self.Persona" Multiplicity="0..1" />
+    <End Role="Venta" Type="Self.Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Persona">
+        <PropertyRef Name="Id_Personas" />
+      </Principal>
+      <Dependent Role="Venta">
+        <PropertyRef Name="Id_Personas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelsStoreContainer">
+    <EntitySet Name="Categoria" EntityType="Self.Categoria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comprobante" EntityType="Self.Comprobante" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Detalle_Pedido" EntityType="Self.Detalle_Pedido" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Detalle_Venta" EntityType="Self.Detalle_Venta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Farmacia" EntityType="Self.Farmacia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="pedido" EntityType="Self.pedido" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Persona" EntityType="Self.Persona" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Producto" EntityType="Self.Producto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proveedor" EntityType="Self.Proveedor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tipo_Usuario" EntityType="Self.Tipo_Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ubicacion_Pedido" EntityType="Self.Ubicacion_Pedido" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Venta" EntityType="Self.Venta" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Farmacia__Id_Per__29572725" Association="Self.FK__Farmacia__Id_Per__29572725">
+      <End Role="Persona" EntitySet="Persona" />
+      <End Role="Farmacia" EntitySet="Farmacia" />
+    </AssociationSet>
+    <AssociationSet Name="FK__pedido__Codigo_C__34C8D9D1" Association="Self.FK__pedido__Codigo_C__34C8D9D1">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="pedido" EntitySet="pedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK__pedido__Codigo_D__31EC6D26" Association="Self.FK__pedido__Codigo_D__31EC6D26">
+      <End Role="Ubicacion_Pedido" EntitySet="Ubicacion_Pedido" />
+      <End Role="pedido" EntitySet="pedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK__pedido__Codigo_D__33D4B598" Association="Self.FK__pedido__Codigo_D__33D4B598">
+      <End Role="Detalle_Pedido" EntitySet="Detalle_Pedido" />
+      <End Role="pedido" EntitySet="pedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK__pedido__Codigo_P__32E0915F" Association="Self.FK__pedido__Codigo_P__32E0915F">
+      <End Role="Persona" EntitySet="Persona" />
+      <End Role="pedido" EntitySet="pedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK__pedido__Codigo_V__35BCFE0A" Association="Self.FK__pedido__Codigo_V__35BCFE0A">
+      <End Role="Venta" EntitySet="Venta" />
+      <End Role="pedido" EntitySet="pedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK__pedido__Numero_C__36B12243" Association="Self.FK__pedido__Numero_C__36B12243">
+      <End Role="Comprobante" EntitySet="Comprobante" />
+      <End Role="pedido" EntitySet="pedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Persona__Codigo___22AA2996" Association="Self.FK__Persona__Codigo___22AA2996">
+      <End Role="Tipo_Usuario" EntitySet="Tipo_Usuario" />
+      <End Role="Persona" EntitySet="Persona" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Producto__Codigo__25869641" Association="Self.FK__Producto__Codigo__25869641">
+      <End Role="Categoria" EntitySet="Categoria" />
+      <End Role="Producto" EntitySet="Producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Producto__Codigo__267ABA7A" Association="Self.FK__Producto__Codigo__267ABA7A">
+      <End Role="Proveedor" EntitySet="Proveedor" />
+      <End Role="Producto" EntitySet="Producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Usuarios__Codigo__145C0A3F" Association="Self.FK__Usuarios__Codigo__145C0A3F">
+      <End Role="Tipo_Usuario" EntitySet="Tipo_Usuario" />
+      <End Role="Usuarios" EntitySet="Usuarios" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Venta__Codigo_Cl__2C3393D0" Association="Self.FK__Venta__Codigo_Cl__2C3393D0">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Venta" EntitySet="Venta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Venta__Codigo_De__2F10007B" Association="Self.FK__Venta__Codigo_De__2F10007B">
+      <End Role="Detalle_Venta" EntitySet="Detalle_Venta" />
+      <End Role="Venta" EntitySet="Venta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Venta__Codigo_Pr__2E1BDC42" Association="Self.FK__Venta__Codigo_Pr__2E1BDC42">
+      <End Role="Producto" EntitySet="Producto" />
+      <End Role="Venta" EntitySet="Venta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Venta__Id_Person__2D27B809" Association="Self.FK__Venta__Id_Person__2D27B809">
+      <End Role="Persona" EntitySet="Persona" />
+      <End Role="Venta" EntitySet="Venta" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

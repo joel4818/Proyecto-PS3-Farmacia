@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="44a2dd3d89c64952acd3ee775320ba03" Name="Diagram1">
+        <EntityTypeShape EntityType="Models.Categoria" Width="1.5" PointX="0.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Cliente" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Comprobante" Width="1.5" PointX="6" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Detalle_Pedido" Width="1.5" PointX="6" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Detalle_Venta" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Farmacia" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.pedido" Width="1.5" PointX="8.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Persona" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Producto" Width="1.5" PointX="3" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Proveedor" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Tipo_Usuario" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Ubicacion_Pedido" Width="1.5" PointX="6" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Usuarios" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Venta" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="Models.FK__Producto__Codigo__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__pedido__Codigo_C__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Venta__Codigo_Cl__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__pedido__Numero_C__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__pedido__Codigo_D__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Venta__Codigo_De__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Farmacia__Id_Per__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__pedido__Codigo_D__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__pedido__Codigo_P__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__pedido__Codigo_V__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Persona__Codigo___22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Venta__Id_Person__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Producto__Codigo__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Venta__Codigo_Pr__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Usuarios__Codigo__145C0A3F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

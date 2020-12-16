@@ -1,0 +1,75 @@
+﻿@model IEnumerable<ProyectoFarmaciaWeb.Models.pedido>
+
+@{
+    ViewBag.Title = "Carrito";
+}
+
+<h2>Carrito</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Fecha_Hora_Pedido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fecha_Hora_Entrega)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cliente.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Comprobante.Estado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Detalle_Pedido.Estado_Pedido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ubicacion_Pedido.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Persona.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Venta.Tipo_Venta)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fecha_Hora_Pedido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fecha_Hora_Entrega)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cliente.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Comprobante.Estado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Detalle_Pedido.Estado_Pedido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ubicacion_Pedido.Descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Persona.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Venta.Tipo_Venta)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Codigo_Pedido }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Codigo_Pedido }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Codigo_Pedido })
+        </td>
+    </tr>
+}
+
+</table>

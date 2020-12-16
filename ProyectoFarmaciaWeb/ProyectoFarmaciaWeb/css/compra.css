@@ -1,0 +1,13 @@
+﻿table {
+    width: 70%;
+}
+td {
+    vertical-align: bottom;
+}
+th {
+    height: 70px;
+}
+    th td {
+        padding: 15px;
+        text-align: left;
+    }

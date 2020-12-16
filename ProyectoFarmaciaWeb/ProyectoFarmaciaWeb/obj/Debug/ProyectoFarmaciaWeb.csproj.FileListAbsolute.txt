@@ -1,0 +1,261 @@
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\ProyectoFarmaciaWeb.dll.config
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\ProyectoFarmaciaWeb.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\ProyectoFarmaciaWeb.pdb
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csc.exe
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csc.exe.config
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csc.rsp
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csi.exe
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csi.exe.config
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csi.rsp
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Console.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\vbc.exe
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\vbc.exe.config
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\vbc.rsp
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Antlr3.Runtime.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Newtonsoft.Json.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Helpers.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Mvc.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Optimization.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Razor.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\WebGrease.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Helpers.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Mvc.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Optimization.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Razor.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Newtonsoft.Json.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.Razor.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.csprojAssemblyReference.cache
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.csproj.CoreCompileInputs.cache
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.csproj.CopyComplete
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.pdb
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\EntityFramework.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\EntityFramework.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto de Sistemas III\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\ProyectoFarmaciaWeb.dll.config
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\ProyectoFarmaciaWeb.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\ProyectoFarmaciaWeb.pdb
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csc.exe
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csc.exe.config
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csc.rsp
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csi.exe
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csi.exe.config
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csi.rsp
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Console.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\vbc.exe
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\vbc.exe.config
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\vbc.rsp
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Antlr3.Runtime.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\EntityFramework.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Newtonsoft.Json.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Helpers.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Mvc.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Optimization.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Razor.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\WebGrease.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\EntityFramework.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Helpers.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Mvc.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Optimization.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Razor.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Newtonsoft.Json.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.Razor.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.csprojAssemblyReference.cache
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.csproj.CoreCompileInputs.cache
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.csproj.CopyComplete
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.dll
+C:\Users\Milton\Desktop\Univalle\6 Semestre\Proyecto\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.pdb
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\ProyectoFarmaciaWeb.dll.config
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\ProyectoFarmaciaWeb.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\ProyectoFarmaciaWeb.pdb
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csc.exe
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csc.exe.config
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csc.rsp
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csi.exe
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csi.exe.config
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\csi.rsp
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.AppContext.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Console.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.Compression.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.FileSystem.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.IO.Pipes.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.AccessControl.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Claims.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.ValueTuple.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Xml.XPath.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\vbc.exe
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\vbc.exe.config
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\vbc.rsp
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\VBCSCompiler.exe
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Antlr3.Runtime.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\EntityFramework.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\EntityFramework.SqlServer.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Newtonsoft.Json.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Helpers.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Mvc.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Optimization.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Razor.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.Deployment.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.Razor.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\WebGrease.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\EntityFramework.xml
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\EntityFramework.SqlServer.xml
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Helpers.xml
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Mvc.xml
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Optimization.xml
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.Razor.xml
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.xml
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.Deployment.xml
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\System.Web.WebPages.Razor.xml
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Newtonsoft.Json.xml
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Antlr3.Runtime.pdb
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.Helpers.resources.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.Mvc.resources.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.Optimization.resources.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.Razor.resources.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.WebPages.resources.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.csprojAssemblyReference.cache
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.csproj.CoreCompileInputs.cache
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.csproj.CopyComplete
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.dll
+E:\Trabajos\6to Semestre\PS3\Prueba\ProyectoFarmaciaWeb\ProyectoFarmaciaWeb\obj\Debug\ProyectoFarmaciaWeb.pdb

@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "AgregarCarrito";
+}
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/css/compra.css">
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<h2>AgregarCarrito</h2>
+
+<form >
+    <input type="text" id="login" class="fadeIn second" name="direc" placeholder="Direccion" /><br />
+    <input type="text" id="login" class="fadeIn second" name="desc" placeholder="Descripcion" />
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Total</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            double total = 0;
+        }
+        @if (Session["carrito"] != null)
+        {
+            foreach (var item in Session["carrito"] as List<ProyectoFarmaciaWeb.Models.CarritoItem>)
+            {
+                total += (double)(item.Cantidad * item.Producto.Precio_Unitario);
+                <tr>
+                    @*<td>@item.Producto.Imagen</td>*@
+                    <td>@item.Producto.Codigo_Producto</td>
+                    <td>@item.Producto.Nombre_Producto</td>
+                    <td>Bs. @(item.Producto.Precio_Unitario)</td>
+                    <td>@item.Cantidad</td>
+                    <td>Bs. @(item.Cantidad * item.Producto.Precio_Unitario)</td>
+                    <td>@Html.ActionLink("Eliminar", "Delete", "Carrito", new { Id = item.Producto.Codigo_Producto }, null)</td>
+                </tr>
+            }
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="4">Total</th>
+            <th>Bs. @(total)</th>
+        </tr>
+    </tfoot>
+</table>
+@Html.ActionLink("Seguir comprando", "Index", "Productos") | @Html.ActionLink("Terminar Compra", "FinalizarCompra", "Carrito", null, null)

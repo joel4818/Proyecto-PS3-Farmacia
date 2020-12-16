@@ -1,0 +1,72 @@
+﻿@model IEnumerable<ProyectoFarmaciaWeb.Models.Producto>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/css/compra.css">
+
+</head>
+<body>
+    <h2>Productos</h2>
+
+    <div style="overflow-x: auto">
+        <table>
+            <thead>
+                <tr>
+                    <th hidden>ID</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th hidden>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        @*<td hidden>@item.Codigo_Producto</td>*@
+                        <td>@item.Nombre_Producto</td>
+                        <td>Bs. @(item.Precio_Unitario)</td>
+                        <td hidden><input type="number" class="form-control" /></td>
+                        <td>@Html.ActionLink("Agregar", "AgregarCarrito", "Carrito", new { Id = item.Codigo_Producto }, null)</td>
+                        <td hidden><a href="#" class="agregar">Agregar</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    
+
+</body>
+
+@section Scripts
+{
+    <script>
+        $(function () {
+            $(".agregar").on("click", function (event) {
+                event.preventDefault();
+                var ProductoId = $(this).parent().parent().find("td:eq(0)").text();
+                var cantidad = $(this).parent().parent()./*find("td:eq(3)")*/.find("input").val();
+                if (cantidad == "")
+                    alert("cantidad requerida");
+                else {
+                    $.ajax(
+                        {
+                            url: "@Url.Action("AgregaCarrito", "Carrito")",
+                            data: { id: ProductoId, cantidad: cantidad },
+                            type: "POST",
+                            success: function (response) {
+                                window.location.href = "@Url.Action("AgregaCarrito", "Carrito")";
+                            },
+                            error: function (err, error) {
+                                alert(error);
+                            }
+                        }
+                        );
+                }
+            });
+        });
+    </script>
+}
